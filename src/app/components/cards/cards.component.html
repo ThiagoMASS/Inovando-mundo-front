@@ -1,0 +1,16 @@
+
+<div style="display: flex; flex-direction: row; gap: 50px; flex-wrap: wrap; justify-content: center;">
+    <div *ngFor="let element of listOfCards" class="container-geral">
+        <img class="tumb" src="../../../assets/curso-js.jpg" alt="">
+        <div class="curso-expecifico">
+            <h2>{{element.title}}</h2>
+            <p>{{element.description}}</p>
+            <button (click)="clickHere(element.title)" style="margin-left: 15px" class="btn" mat-raised-button color="primary">
+                <a  class="btn1" routerLink="">
+                    {{element.button}}
+                </a>
+            </button>
+        </div>
+    </div>
+
+</div>

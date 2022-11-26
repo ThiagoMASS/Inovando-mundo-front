@@ -1,0 +1,43 @@
+
+  .conteudo{
+    margin-top: 5%;
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+   
+  }
+  .image{
+    margin-top: 40px;
+
+  }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.container-curso{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#fff;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    color: black;
+}
+.link22{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.link1{
+text-decoration: none;
+color: black;
+background-color: dodgerblue;
+padding: 4px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px ;
+}

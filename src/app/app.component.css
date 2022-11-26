@@ -1,0 +1,19 @@
+.nav-toolbar {
+    background-color: rgb(106, 37, 216);
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.btn-menu {
+    margin-right: 10px
+}
+/* .main {
+    background-image: linear-gradient(to right, rgb(99, 29, 146) , rgb(88, 90, 177));
+    height: 100vh;
+} */

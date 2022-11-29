@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { TelacardComponent } from '../telacard/telacard.component';
 
 
 export interface CardInterface {
@@ -48,7 +50,7 @@ export class CardsComponent implements OnInit{
   }
 
   public clickHere(desc: string):void{
-    console.log(desc);
+    console.log('funcion')
   }
 
 

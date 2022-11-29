@@ -1,0 +1,37 @@
+img{
+    width: 600px;
+    border-radius: 10px; 
+}
+.container{
+    width: 600px;
+}
+.container-image{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.informa-curso{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.informa-curso h1{
+    font-size: 60px;
+    margin-right: 420px;
+}
+.informa-curso p{
+    font-size: 30px;
+}
+.btn{
+    background-color: dodgerblue;
+    color: white;
+}
+.meu-btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

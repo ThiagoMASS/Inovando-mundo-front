@@ -9,12 +9,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { CardsComponent } from './components/cards/cards.component';
+import { TelacardComponent } from './components/telacard/telacard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CardsComponent
+    CardsComponent,
+    TelacardComponent
   ],
   imports: [
     BrowserModule,
